@@ -10,6 +10,9 @@ import org.keycloak.representations.idm.RealmRepresentation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Service
 public class KeycloakService {
 
@@ -18,7 +21,6 @@ public class KeycloakService {
 
     public String getClientSecret(String realmName, String clientName) {
         if (realmName == null || clientName == null) {
-            // Hata durumu: realmName veya clientName null ise
             return null;
         }
 
@@ -55,5 +57,35 @@ public class KeycloakService {
         }
 
         return null; // Belirtilen realm ve client bulunamadı
+    }
+
+    public List<String> getAllClientSecrets(String realmName) {
+        List<String> clientSecrets = new ArrayList<>();
+
+        if (realmName == null) {
+            return clientSecrets;
+        }
+
+        // Selected Realm
+        System.out.println("Selected Realm: " + realmName);
+        RealmResource realmResource = keycloak.realm(realmName);
+        System.out.println("-------------------------------------------------");
+
+        // All Clients
+        System.out.println("All Clients for " + realmName + " realm: ");
+        ClientsResource clientsResource = realmResource.clients();
+        for (ClientRepresentation clientRepresentation : clientsResource.findAll()) {
+            String temp = "Client: " + clientRepresentation.getClientId() + " --> Id: " + clientRepresentation.getId();
+
+            ClientResource clientResource = clientsResource.get(clientRepresentation.getId());
+
+            temp += " ---> Secret: " + clientResource.getSecret().getValue();
+            clientSecrets.add(temp);
+
+            System.out.println(temp);
+            System.out.println("-------------------------------------------------");
+        }
+
+        return clientSecrets;
     }
 }

@@ -1,0 +1,8 @@
+Client: account --> Id: 85ce0bc5-8a3e-4f81-bdab-2c20aa903fdc ---> Secret: null
+Client: account-console --> Id: 76d77d92-8d6b-4692-a521-ee87d354f3d5 ---> Secret: null
+Client: admin-cli --> Id: f460bf17-9b63-44d5-ae44-4c4e993bfedd ---> Secret: null
+Client: broker --> Id: fbc0cdf4-9de0-4e89-b1f9-9ef3344d9d17 ---> Secret: null
+Client: demo --> Id: 996fc819-7e53-4dfb-837d-d1e192716129 ---> Secret: GNUAeQokQkkHa7dQOFmZZoWrEVlipzTA
+Client: realm-management --> Id: 1d3dfcc1-d6e6-461a-bd7c-79b8df5d7685 ---> Secret: null
+Client: security-admin-console --> Id: 186f5cb6-be8d-42fa-9e04-8368bdccd0d7 ---> Secret: null
+Client: test-client --> Id: 7abca2f8-84e0-464e-b40b-8ddef4880e8a ---> Secret: EFeDowCzNnsfFUHRwnC3yOn50hECJbpZ

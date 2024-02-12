@@ -1,0 +1,8 @@
+Client: account --> Id: 94e85aae-aa70-4d4f-a78c-aa0e86fe3a74 ---> Secret: null
+Client: account-console --> Id: 1b9dda8b-91ef-40d0-8554-5ec16433d58f ---> Secret: null
+Client: admin-cli --> Id: 6dd07fc7-9ca9-477a-8da9-b85d01b7f540 ---> Secret: eqrlOZwbFLJCGi9ymHBPJUZ3Vvn5MaQ9
+Client: broker --> Id: dc346017-5fc6-4357-a282-d1d434a9b0b9 ---> Secret: null
+Client: demo-realm --> Id: d3775625-20a9-44f4-bb0f-5cbb7062a7e1 ---> Secret: null
+Client: master-realm --> Id: 29258e79-a27e-49dc-b874-7117cbfd4400 ---> Secret: null
+Client: security-admin-console --> Id: aa458f79-c0c5-46e3-bb71-8727880134ac ---> Secret: null
+Client: test-realm --> Id: 7a02c07a-6f4e-4a70-b5e4-0cc135182f71 ---> Secret: null

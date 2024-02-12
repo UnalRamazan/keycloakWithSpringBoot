@@ -1,0 +1,6 @@
+Client: account --> Id: 7a6d9809-427a-4ab6-b497-7ab74bcfc583 ---> Secret: null
+Client: account-console --> Id: 644b8691-4028-4d32-b72c-a1f794b73410 ---> Secret: null
+Client: admin-cli --> Id: 7dffbce4-a25c-4ba9-aa8c-506762917fa4 ---> Secret: null
+Client: broker --> Id: 7e737cf8-b55e-4e01-ae93-629fa75f8133 ---> Secret: null
+Client: realm-management --> Id: fed0c200-c1cc-4128-add6-dd65a82be264 ---> Secret: null
+Client: security-admin-console --> Id: b508ccd7-c069-4e8c-8429-b17ae1217021 ---> Secret: null
