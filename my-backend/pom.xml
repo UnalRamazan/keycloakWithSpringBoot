@@ -15,7 +15,7 @@
 	<artifactId>my-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>my-backend</name>
-	<description>Aselsan project for Spring Boot</description>
+	<description>Spring Boot Example with Keycloak</description>
 
 	<properties>
 		<java.version>17</java.version>
